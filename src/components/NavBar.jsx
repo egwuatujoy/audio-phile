@@ -8,11 +8,11 @@ const NavBar = () => {
       <nav className="flex justify-between px-10 py-8 items-center ">
         <div className="flex justify-center items-center gap-8  overflow-hidden ">
           <button onClick={() => setToggle(!toggle)}>
-            <img src="/public/images/Group.png" alt="" />
+            <img src="/images/Group.png" alt="" />
           </button>
 
           <div>
-            <img src="/public/images/audiophile 2.png" alt="" />
+            <img src="/images/audiophile 2.png" alt="" />
           </div>
 
           <div
@@ -38,7 +38,7 @@ const NavBar = () => {
         </div>
 
         <div>
-          <img src="/public/images/Combined Shape.png" alt="" />
+          <img src="/images/Combined Shape.png" alt="" />
         </div>
       </nav>
     </header>
