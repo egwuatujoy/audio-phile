@@ -2,7 +2,7 @@ const Home = () => {
   return (
     <section className="w-full bg-lightgray">
       <div className=" w-full bg-[url('/images/home-img.jpg')] bg-no-repeat bg-contain    ">
-        <div className="text-white text-center py-56  ">
+        <div className="text-white text-center py-44 ">
           <h2 className="text-neutral-500  text-sm tracking-overWide mb-5 ">
             NEW PRODUCT
           </h2>

@@ -10,6 +10,7 @@ export default {
         lightgray: "#191919",
         orange: "#D87D4A",
         lightorange: "#fbaf85",
+        light: "#979797",
       },
       backgroundImage: {
         "home-img": "url('/images/Bitmap(1).png')",
