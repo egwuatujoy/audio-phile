@@ -5,12 +5,10 @@ const Equipments = () => {
     <section>
       <div className="grid grid-cols-1 place-items-center mb-5 font-semibold text-lg  mx-5 font-semibold text-lg mt-56 ">
         <Equipment>
-
-        
           <img
             src="/images/headphone1.png"
             alt=""
-            className="  font-semibold text-lg absolute left-40 bottom-44  "
+            className="  font-semibold text-lg absolute left-36 bottom-44  "
           />
 
           <h1 className="text-center mb-5 font-semibold text-lg   ">
@@ -28,7 +26,7 @@ const Equipments = () => {
           <img
             src="/images/speaker1.png"
             alt=""
-            className=" font-semibold text-lg absolute left-40 bottom-44  "
+            className=" font-semibold text-lg absolute left-36  bottom-44  "
           />
 
           <h1 className="text-center mb-5 font-semibold text-lg ">SPEAKERS</h1>
@@ -45,7 +43,7 @@ const Equipments = () => {
           <img
             src="/images/earpod1.png"
             alt=""
-            className=" font-semibold text-lg absolute left-40 bottom-44  "
+            className=" font-semibold text-lg absolute left-32 bottom-44  "
           />
 
           <h1 className="text-center mb-5 font-semibold text-lg  ">
