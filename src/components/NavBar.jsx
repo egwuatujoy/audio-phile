@@ -6,7 +6,10 @@ const NavBar = () => {
   return (
     <header className="bg-black text-white ">
       <nav className="flex justify-between px-10 py-8 items-center ">
+      
         <div className="flex justify-center items-center gap-8  overflow-hidden ">
+
+
           <button onClick={() => setToggle(!toggle)}>
             <img src="/images/Group.png" alt="" />
           </button>
@@ -16,7 +19,7 @@ const NavBar = () => {
           </div>
 
           <div
-            className={`fixed left-0  top-20 h-0  w-full bg-black  ease-linear duration-75 ${
+            className={`absolute left-0  top-20 h-0  w-full bg-black  ease-linear duration-75 ${
               toggle ? "h-1/2" : "h-0"
             }`}
           >
@@ -35,11 +38,14 @@ const NavBar = () => {
               </li>
             </ul>
           </div>
+
+
         </div>
 
         <div>
           <img src="/images/Combined Shape.png" alt="" />
         </div>
+
       </nav>
     </header>
   );
