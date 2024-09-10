@@ -5,10 +5,12 @@ const Equipments = () => {
     <section>
       <div className="grid grid-cols-1 place-items-center mb-5 font-semibold text-lg  mx-5 font-semibold text-lg mt-56 ">
         <Equipment>
+
+        
           <img
             src="/images/headphone1.png"
             alt=""
-            className=" w-2/5 font-semibold text-lg absolute left-24 bottom-44  "
+            className="  font-semibold text-lg absolute left-52 bottom-44  "
           />
 
           <h1 className="text-center mb-5 font-semibold text-lg   ">
@@ -26,10 +28,10 @@ const Equipments = () => {
           <img
             src="/images/speaker1.png"
             alt=""
-            className=" w-2/5 font-semibold text-lg absolute left-24 bottom-44  "
+            className=" font-semibold text-lg absolute left-52 bottom-44  "
           />
 
-          <h1 className="text-center mb-5 font-semibold text-lg  ">SPEAKERS</h1>
+          <h1 className="text-center mb-5 font-semibold text-lg ">SPEAKERS</h1>
           <a
             href="#"
             className="flex justify-center text-center items-center mb-5 font-semibold text-lg  gap-2 "
@@ -43,7 +45,7 @@ const Equipments = () => {
           <img
             src="/images/earpod1.png"
             alt=""
-            className=" w-2/5 font-semibold text-lg absolute left-24 bottom-44  "
+            className=" font-semibold text-lg absolute left-52 bottom-44  "
           />
 
           <h1 className="text-center mb-5 font-semibold text-lg  ">
