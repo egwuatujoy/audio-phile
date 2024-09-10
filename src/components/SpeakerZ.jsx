@@ -1,13 +1,19 @@
+
 import Button from "./Button";
 import ProductName from "./ProductName";
+
 const SpeakerZ = () => {
+
+
   return (
-    <section className=" mb-36 grid place-content-center mx-6">
-      <div className="bg-[url('/images/speakerZ.png')] bg-no-repeat bg-cover w-full p-9 text-center ">
+    <section className=" mb-14  mx-6 ">
+      <div className="bg-[url('/images/speakerZ.png')] bg-no-repeat bg-cover w-full p-9 text-center  rounded-md ">
         <div className="text-white">
-          <img src="./images/newer.svg" alt="" className="w-3/5 m-auto " />
+          <img src="./images/speaker.svg" alt="" className="w-3/5 m-auto " />
           <ProductName
-            style={"text-3xl text-center font-semibold uppercase mt-7"}
+            style={
+              "text-2xl tracking-wide  text-center font-semibold uppercase mt-7"
+            }
             name={"ZX9 SPEAKER"}
           />
           <p className="mt-7 text-center tracking-wider text-lg  ">
@@ -18,7 +24,7 @@ const SpeakerZ = () => {
 
         <Button
           style={
-            "text-base text-white bg-black px-8 py-3 font-semibold uppercase mt-12 flex  items-center "
+            "text-xs text-white bg-black px-8 py-3 font-semibold uppercase mt-12 "
           }
         />
       </div>
