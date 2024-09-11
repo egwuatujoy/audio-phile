@@ -2,8 +2,8 @@ import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import Equipments from "./components/Equipments";
 import SpeakerZ from "./components/SpeakerZ";
-import MainSectio from "./components/MainSectio";
-
+import MainSection from "./components/MainSection";
+import Footer from "./components/Footer";
 const App = () => {
   return (
     <div>
@@ -11,7 +11,8 @@ const App = () => {
       <Home />
       <Equipments />
       <SpeakerZ />
-      <MainSectio/>
+      <MainSection />
+      <Footer />
     </div>
   );
 };

@@ -11,6 +11,8 @@ export default {
         orange: "#D87D4A",
         lightorange: "#fbaf85",
         light: "#979797",
+        lightGray: "#F1F1F1",
+        background: "#fafafa",
       },
       backgroundImage: {
         "home-img": "url('/images/Bitmap(1).png')",
