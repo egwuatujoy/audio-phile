@@ -8,7 +8,7 @@ const Equipments = () => {
           <img
             src="/images/headphone1.png"
             alt=""
-            className="  font-semibold text-lg absolute left-36 bottom-44  "
+            className="  font-semibold text-lg absolute left-44 bottom-44  "
           />
 
           <h1 className="text-center mb-5 font-semibold text-lg   ">
@@ -24,9 +24,9 @@ const Equipments = () => {
         </Equipment>
         <Equipment>
           <img
-            src="/images/speaker1.png"
+            src="/images/SmallSpeaker.svg"
             alt=""
-            className=" font-semibold text-lg absolute left-36  bottom-44  "
+            className=" font-semibold text-lg absolute left-44  bottom-44  "
           />
 
           <h1 className="text-center mb-5 font-semibold text-lg ">SPEAKERS</h1>
@@ -43,7 +43,7 @@ const Equipments = () => {
           <img
             src="/images/earpod1.png"
             alt=""
-            className=" font-semibold text-lg absolute left-32 bottom-44  "
+            className=" font-semibold text-lg absolute left-44 bottom-44  "
           />
 
           <h1 className="text-center mb-5 font-semibold text-lg  ">

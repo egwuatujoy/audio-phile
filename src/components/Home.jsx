@@ -3,7 +3,7 @@ import Button from "./Button";
 const Home = () => {
   return (
     <section className="w-full bg-lightgray ">
-      <div className=" w-full bg-[url('/images/home-img.jpg')] bg-no-repeat bg-cover  bg-center  ">
+      <div className=" w-full bg-[url('/images/home-img.jpg')] bg-no-repeat bg-cover  bg-center px-5  ">
         <div className="text-white text-center py-44">
           <h2 className="text-neutral-500  text-sm tracking-overWide mb-5 ">
             NEW PRODUCT
@@ -11,7 +11,7 @@ const Home = () => {
           <h1 className="text-4xl  font-semibold   mb-5">
             XX99 MARK II HEADPHONES
           </h1>
-          <p className=" mb-8 px-16">
+          <p className=" text-white text-sm  mb-8 px-16">
             Experience natural, lifelike audio and exceptional build quality
             made for the passionate music enthusiast.
           </p>
