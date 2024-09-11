@@ -43,7 +43,7 @@ const NavBar = () => {
         </div>
 
         <div>
-          <img src="/images/Combined Shape.png" alt="" />
+          <img src="/images/Cart.svg" alt="" />
         </div>
 
       </nav>
