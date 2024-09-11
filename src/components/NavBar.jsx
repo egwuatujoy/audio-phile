@@ -17,7 +17,7 @@ const NavBar = () => {
 
           <div
             className={`absolute left-0  top-20 h-0 w-full bg-black ease-linear duration-75 ${
-              toggle ? "h-1/2  " : "h-0 "
+              toggle ? "h-3/5  " : "h-0 "
             }`}
           >
             {toggle && (
