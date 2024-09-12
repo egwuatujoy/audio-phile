@@ -2,7 +2,7 @@ import Button from "./Button";
 import ProductName from "./ProductName";
 const MainEarphones = () => {
   return (
-    <div className="mb-16">
+    <div className="mb-16 mx-5">
       <div className="mb-10  ">
         <img src="/images/EarphoneRow.jpg" alt="" className="rounded-md " />
       </div>

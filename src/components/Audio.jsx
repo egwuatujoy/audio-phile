@@ -1,6 +1,6 @@
 const Audio = () => {
   return (
-    <div className="mb-16">
+    <div className="mb-16 mx-5">
       <div className=" mb-10">
         <img src="./images/AudioGear.svg" alt="" />
       </div>

@@ -4,7 +4,7 @@ import Audio from "./Audio";
 
 const MainSection = () => {
   return (
-    <div className=" mx-6 ">
+    <div>
       <MainSpeaker />
       <MainEarphones />
       <Audio />

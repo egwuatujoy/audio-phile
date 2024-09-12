@@ -1,5 +1,5 @@
-import Button from "./Button";
 
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <section className="w-full bg-lightgray ">
@@ -16,9 +16,12 @@ const Home = () => {
             made for the passionate music enthusiast.
           </p>
 
-          <Button
-            style={"bg-orange border-0 text-white py-4  hover:bg-gray-200  "}
-          />
+          <Link
+            to={"/headphones"}
+            className="bg-orange border-0 text-white py-4  hover:bg-gray-200 text-xs   border-black px-8  font-semibold uppercase mt-6  ease-linear  duration-300 "
+          >
+            See Product
+          </Link>
         </div>
       </div>
     </section>
