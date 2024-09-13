@@ -1,6 +1,6 @@
 const Feature = () => {
   return (
-    <div className="mx-5">
+    <div className="mx-5 mb-20">
       <h1 className="text-2xl tracking-wide font-semibold uppercase mb-5">
         features
       </h1>

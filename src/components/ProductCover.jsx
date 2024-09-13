@@ -1,9 +1,28 @@
 const ProductCover = () => {
   return (
-    <div>
-      <img src="/images/ProductCover2.jpg" alt="" />
-      <img src="/images/ProductCover3.jpg" alt="" />
-      <img src="/images/ProductCover1.jpg" alt="" />
+    <div className="mx-5">
+      <div className="grid grid-cols-2 gap-x-6  ">
+        <div>
+          <img
+            src="/images/ProductCover2.jpg"
+            alt=""
+            className="rounded-md  mb-4 
+    "
+          />
+          <img
+            src="/images/ProductCover3.jpg"
+            alt=""
+            className="rounded-md
+    "
+          />
+        </div>
+
+        <img
+          src="/images/ProductCover1.jpg"
+          alt=""
+          className="rounded-md h-full"
+        />
+      </div>
     </div>
   );
 };
