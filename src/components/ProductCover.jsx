@@ -20,7 +20,7 @@ const ProductCover = () => {
         <img
           src="/images/ProductCover1.jpg"
           alt=""
-          className="rounded-md h-56"
+          className="rounded-md h-56 mt-2"
         />
       </div>
     </div>
