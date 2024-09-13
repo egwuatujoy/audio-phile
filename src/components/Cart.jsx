@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 
 const Cart = () => {
   return (
-    <div className="my-16 mx-5">
+    <div className=" mx-5 my-20">
       <Link to={"/"} className=" text-light text-sm">
         Go Back
       </Link>
-      <div className="flex justify-center items-center gap-6 py-20">
+      <div className="flex justify-center items-center gap-6 ">
         <img src="/images/Hpage.jpg" alt="" className="w-1/2 rounded-sm" />
         <div>
           <h2 className="text-orange  text-xs tracking-overWide mb-5 ">

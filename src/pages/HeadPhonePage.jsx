@@ -3,12 +3,14 @@ import Feature from "../components/Feature";
 import Footer from "../components/Footer";
 import Cart from "../components/Cart";
 import ProductCover from "../components/ProductCover";
+import ReferProducts from "../components/ReferProducts";
 const HeadPhonePage = () => {
   return (
     <div>
       <Cart />
       <Feature />
       <ProductCover />
+      <ReferProducts />
       <Equipments />
       <Footer />
     </div>

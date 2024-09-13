@@ -3,7 +3,7 @@ import Equipment from "./Equipment";
 const Equipments = () => {
   return (
     <section>
-      <div className="grid grid-cols-1 place-items-center mb-5 font-semibold text-lg  mx-5 font-semibold text-lg mt-56 ">
+      <div className="grid grid-cols-1 place-items-center mb-5 font-semibold   mx-5 text-lg mt-44">
         <Equipment>
           <img
             src="/images/headphone1.png"

@@ -1,6 +1,6 @@
 const ProductCover = () => {
   return (
-    <div className="mx-5">
+    <div className="mx-5 mb-20">
       <div className="grid grid-cols-2 gap-x-6  ">
         <div>
           <img
