@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <div className="bg-black px-5 pt-16 pb-8 " >
-      <img src="/images/audiophile 2.png" alt="" className="mb-8 w-2/5" />
+    <div className="bg-black px-5 pt-16 pb-8 ">
+      <img src="/images/audiophile 2.png" alt="" className="mb-8 mx-0  " />
       <p className="  font-semibold mb-10">
         Audiophile is an all in one stop to fulfill your audio needs. We're a
         small team of music lovers and sound specialists who are devoted to
@@ -9,7 +9,7 @@ const Footer = () => {
         facility - we’re open 7 days a week.
       </p>
       <div className="flex justify-between  items-center">
-        <p >Copyright 2021. All Rights Reserved</p>
+        <p>Copyright 2021. All Rights Reserved</p>
         <div className="flex gap-3">
           <img src="/images/FaceBook.svg" alt="" className="w-5 rounded-md" />
           <img src="/images/Twitter.svg" alt="" className="w-5 rounded-md" />

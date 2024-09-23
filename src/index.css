@@ -12,14 +12,16 @@ body {
 }
 img {
   @apply max-w-full;
+  @apply my-0;
+  @apply mx-auto;
   @apply h-auto;
   @apply block;
 }
 
 p {
   @apply m-0;
-  @apply text-sm;
+  @apply text-base;
   @apply text-light;
   @apply font-normal
-  leading-5
+  leading-5;
 }

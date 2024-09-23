@@ -1,14 +1,20 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
     <header className="bg-black text-white ">
-      <nav className="flex justify-between px-10 py-8 items-center ">
+      <nav className="flex justify-between px-10  max-md:py-8 items-center ">
         <div className="flex justify-center items-center gap-8  overflow-hidden ">
-          <button onClick={() => setToggle(!toggle)}>
-            <img src="/images/Group.png" alt="" />
+          <button>
+            <img
+              src="/images/Group.png"
+              alt=""
+              className="max-md:block hidden"
+              onClick={() => setToggle(!toggle)}
+            />
           </button>
 
           <div>
@@ -16,26 +22,24 @@ const NavBar = () => {
           </div>
 
           <div
-            className={`absolute left-0  top-20 h-0 w-full bg-black ease-linear duration-75 ${
-              toggle ? "h-3/5  " : "h-0 "
-            }`}
+            className={`max-md:absolute left-0 top-20  w-full bg-black ease-linear duration-75`}
           >
-            {toggle && (
-              <ul>
-                <li className=" p-7  hover:bg-lightgray hover:text-orange ">
-                  <a href="#home">HOME</a>
-                </li>
-                <li className=" p-7 hover:bg-lightgray hover:text-orange">
-                  <a href="#recipe">HEADPHONES</a>
-                </li>
-                <li className=" p-7 hover:bg-lightgray hover:text-orange">
-                  <a href="#popular">SPEAKERS</a>
-                </li>
-                <li className=" p-7  hover:bg-lightgray hover:text-orange">
-                  <a href="#delivery">EARPHONES</a>
-                </li>
-              </ul>
-            )}
+            <ul
+              className={`flex max-md:block overflow-hidden ${toggle ? "max-md:h-3/5" : "max-md:h-0"} bg-black text-xs`}
+            >
+              <li className=" p-7  hover:bg-lightgray hover:text-orange">
+                <Link to="/">HOME</Link>
+              </li>
+              <li className=" p-7 hover:bg-lightgray hover:text-orange">
+                <Link to="/headphones">HEADPHONES</Link>
+              </li>
+              <li className=" p-7 hover:bg-lightgray hover:text-orange">
+                <Link to="/speakers">SPEAKERS</Link>
+              </li>
+              <li className=" p-7  hover:bg-lightgray hover:text-orange">
+                <Link to="/earphones">EARPHONES</Link>
+              </li>
+            </ul>
           </div>
         </div>
 
