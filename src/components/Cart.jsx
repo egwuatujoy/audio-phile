@@ -17,17 +17,21 @@ const Cart = () => {
   }
 
   return (
-    <div className=" mx-5 my-20">
-      <Link to={"/"} className=" text-light text-sm  ">
+    <div className="pt-10 mb-52 w-full ">
+      <Link to={"/"} className=" text-light text-sm">
         Go Back
       </Link>
-      <div className="flex justify-center items-center gap-6 mt-10">
-        <img src="/images/Hpage.jpg" alt="" className="w-1/2 rounded-sm" />
-        <div>
+      <div className="flex justify-center items-center max-md:flex-col gap-28  mt-10">
+        <img
+          src="/images/HeadPhone.jpg"
+          alt=""
+          className=" max-w-quartar max-md:max-w-full rounded-sm  "
+        />
+        <div className="max-w-medium  max-md:max-w-full    ">
           <h2 className="text-orange  text-xs tracking-overWide mb-5 ">
             NEW PRODUCT
           </h2>
-          <h1 className="text-2xl  font-semibold   mb-5">
+          <h1 className="text-5xl  font-semibold   mb-5">
             XX99 MARK II HEADPHONES
           </h1>
           <p className="  text-sm  mb-8 ">

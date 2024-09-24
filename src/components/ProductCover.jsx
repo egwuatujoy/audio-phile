@@ -1,26 +1,26 @@
 const ProductCover = () => {
   return (
-    <div className="mx-5 mb-20">
-      <div className="grid grid-cols-2 gap-x-6  ">
-        <div>
-          <img
-            src="/images/ProductCover2.jpg"
-            alt=""
-            className="rounded-md  mb-4 
-    "
-          />
-          <img
-            src="/images/ProductCover3.jpg"
-            alt=""
-            className="rounded-md
-    "
-          />
-        </div>
+    <div className=" grid grid-cols-[repeat(2,minmax(0,1fr))]  gap-x-6  w-full mb-52   ">
+      <div>
+        <img
+          src="/images/ProductCover2.jpg"
+          alt=""
+          className="rounded-md  mb-4 
+          "
+        />
+        <img
+          src="/images/ProductCover3.jpg"
+          alt=""
+          className="rounded-md  
+             "
+        />
+      </div>
 
+      <div>
         <img
           src="/images/ProductCover1.jpg"
           alt=""
-          className="rounded-md h-56 mt-2"
+          className=" rounded-md h-full"
         />
       </div>
     </div>

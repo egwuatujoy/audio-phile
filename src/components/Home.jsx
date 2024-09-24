@@ -2,15 +2,15 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <section className="w-full bg-lightgray ">
-      <div className=" w-full bg-[url('/images/home-img.jpg')] bg-no-repeat bg-cover  bg-center px-5  ">
-        <div className="text-white text-center px-10 py-44">
+      <div className=" container w-full bg-[url('/images/home-img.jpg')] bg-no-repeat bg-contain bg-right-top max-md:bg-cover max-md:bg-center ">
+        <div className="text-white max-md:text-center max-w-2xl text-left max-md:px-5 py-44 px-32 ">
           <h2 className="text-neutral-500  text-sm tracking-overWide mb-5 ">
             NEW PRODUCT
           </h2>
           <h1 className=" max-sm:text-4xl text-6xl  font-semibold   mb-5">
             XX99 MARK II HEADPHONES
           </h1>
-          <p className=" text-white text-2xl  mb-8 px-16">
+          <p className=" text-white max-w-96  max-md:max-w-2xl   mb-8 ">
             Experience natural, lifelike audio and exceptional build quality
             made for the passionate music enthusiast.
           </p>

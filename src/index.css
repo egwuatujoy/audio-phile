@@ -11,8 +11,7 @@ body {
   @apply bg-background;
 }
 img {
-  @apply max-w-full;
-  @apply my-0;
+ 
   @apply mx-auto;
   @apply h-auto;
   @apply block;
@@ -24,4 +23,12 @@ p {
   @apply text-light;
   @apply font-normal
   leading-5;
+}
+
+.container {
+  @apply my-0 mx-auto max-w-main;
+}
+
+.li {
+  @apply p-7 max-md:hover:bg-lightgray  hover:text-orange;
 }

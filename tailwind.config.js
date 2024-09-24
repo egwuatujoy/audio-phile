@@ -21,6 +21,16 @@ export default {
       letterSpacing: {
         overWide: "10px",
       },
+      maxWidth: {
+        main: "1190px",
+        half: "50%",
+        quartar: "45%",
+        medium: "55%",
+        large: "60%",
+        small: "40%",
+        imageone: "985px",
+        imagetwo: "460px",
+      },
     },
   },
   plugins: [],

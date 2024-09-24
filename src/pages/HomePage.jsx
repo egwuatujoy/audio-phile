@@ -15,7 +15,6 @@ const HomePage = () => {
       <MainSpeaker />
       <MainEarphones />
       <Audio />
-      <Footer />
     </div>
   );
 };
